@@ -4,7 +4,8 @@ import logoImg from '../logo.png'
 
 export default () => (
   <div>
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
-    <img src={logoImg} alt="" />
+    <div><h1>Hi There </h1></div>
+    <div>asdasd</div>
   </div>
+  
 )
