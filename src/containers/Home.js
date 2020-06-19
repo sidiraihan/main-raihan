@@ -10,8 +10,9 @@ export default () => (
   <h2>Raihan Sidi Harinda</h2>
 </div>
 <div class="card">
-  <h2>Contact</h2>
+  <h2>Get in touch with me</h2>
   <p>sidiraihan@gmail.com</p>
+  <a href="https://linkedin.com/raihan-sidi-harinda">linkedin.com/raihan-sidi-harinda</a>
 </div>
 </div>
 <h2>Some of my project</h2>

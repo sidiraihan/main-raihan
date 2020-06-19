@@ -29,6 +29,9 @@ nav a {
   display: inline-block;
 }
 
+h1, h2{
+}
+
 .content {
   padding: 1rem;
 }
@@ -42,6 +45,10 @@ nav a {
   margin-top: 1em;
   margin-bottom: 1em;
   flex: 1;
+}
+.card h2{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 .flex-row{
   display: flex;
