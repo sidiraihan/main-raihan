@@ -19,6 +19,10 @@ export default {
         component: "src/containers/Contact"
       },
       {
+        path: "/linkedin",
+        component: "src/containers/Linkedin"
+      },
+      {
         path: "/blog",
         component: "src/containers/Blog",
         getData: () => ({
