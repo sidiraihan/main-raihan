@@ -9,8 +9,19 @@ body {
 
 a {
   text-decoration: none;
-  color:orangered;
+  color:#141a4d;
+}
+
+.card a {
+  text-decoration: none;
+  color:black;
+  display: block;
+  margin-top: 1em;
   font-weight: bold;
+}
+
+.card a:hover{
+  text-decoration: underline;
 }
 
 img {
@@ -19,8 +30,10 @@ img {
 
 nav {
   width: 100%;
-  background: #e2e2e2;
-  color: black;
+background: whitesmoke;
+color: black;
+position: sticky;
+top: 0;
 }
 
 nav a {
@@ -32,7 +45,7 @@ nav a {
 h1, h2{
 }
 span{
-  background-color: crimson;
+  background-color: #141a4d;
   border-radius: 1em;
   color: white;
   padding-left: 1em;
@@ -64,8 +77,33 @@ span{
 .card h2{
   margin-top: 1vh;
   margin-bottom: 1vh;
+  font-size: 20px;
+}
+.card p{
+  font-weight: 600;
 }
 .flex-row{
   display: flex;
   flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+  .flex-row{
+    flex-direction: column;
+  }
+  .label{
+    display: flex;
+    align-items: flex-start;
+    overflow: scroll;
+  }
+  nav{
+    position: fixed;
+    bottom: 0;
+    top: unset;
+    text-align: center;
+display: flex;
+justify-content: space-evenly;
+  }
+  .row{
+    margin-bottom: 4em;
+  }
 }
