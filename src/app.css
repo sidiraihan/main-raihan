@@ -18,7 +18,7 @@ a {
 }
 
 .card a {
-  text-decoration: none;
+  text-decoration: underline;
   color:black;
   display: block;
   margin-top: 1em;
@@ -91,10 +91,26 @@ span{
   display: flex;
   flex-direction: row;
 }
+.about div.card:last-child{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.project {
+  flex-direction: row;
+}
+.project div.card:first-child{
+  display: inline-flex;
+  flex: 5;
+  overflow: scroll;
+  scroll-padding: auto;
+  align-items: center;
+}
 .project img{
   width: 100%;
   margin-left: 1vh;
 margin-right: 1vh;
+height: 18vh;
 }
 .label::-webkit-scrollbar {
   display: none;
@@ -123,19 +139,25 @@ justify-content: space-evenly;
     margin-bottom: 4em;
   }
   .project{
-    /* flex-direction: row;
+    flex-direction: column;
     overflow-x: scroll;
     width: 100%;
-    scroll-padding: auto; */
+    scroll-padding: auto;
   }
 
-  .project div.card{
+  .project div.card:first-child{
     padding: unset;
     flex: unset;
   }
+  .project div.card:last-child{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+  }
   .project img{
     width: 100%;
-    margin-bottom: 1em;
+    height: 18vh;
+    /* margin-bottom: 1em; */
     margin-left: unset;
     margin-right: unset;
   }

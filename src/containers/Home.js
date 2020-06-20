@@ -11,10 +11,10 @@ import ticket from '../ticket.png'
 
 export default () => (
   <div class="row">
-    <div><h1>Hi There ✨</h1></div>
-<div class="flex-row">
+    <div><h2>Hi There ✨</h2></div>
+<div class="flex-row about">
 <div class="card">
-  <h2>Raihan Sidi Harinda</h2>
+  <h1>Raihan Sidi Harinda</h1>
   <p>Full time learner</p>
   <div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>teamwork</span> <span>programming</span></div>
 </div>
@@ -30,7 +30,7 @@ export default () => (
 
 
 <div class="flex-row project">
-
+  <div class="card">
 <img src={project2} alt="" /> 
 <img src={ticket} alt="" /> 
 <img src={project1} alt="" /> 
@@ -38,6 +38,13 @@ export default () => (
 <img src={printbeta} alt="" /> 
 <img src={project4} alt="" /> 
 <img src={gmpImg} alt="" /> 
+</div>
+<div class="card">
+📱
+  <a target="blank" href="https://xd.adobe.com/view/45938a54-dda1-49f1-5f7e-c8ef9413e56a-33a2/">Nrby</a>
+  <a target="blank" href="https://xd.adobe.com/view/98fe76cf-f4ed-4d2d-76cb-a7982e7f39b8-eecf/">Coursr</a>
+  <a target="blank" href="https://scene.zeplin.io/project/5d4e74f4b19d56351039bb95">Prestisa Partner</a>
+</div>
 </div>
 
   </div>
