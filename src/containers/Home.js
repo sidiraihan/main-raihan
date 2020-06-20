@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 //
 import logoImg from '../logo.png'
 import gmpImg from '../gmp.png'
@@ -9,8 +10,17 @@ import project2 from '../project2.jpg'
 import project4 from '../project4.jpg'
 import ticket from '../ticket.png'
 
+const TITLE = 'Raihan Sidi Harinda'
+
 export default () => (
+  
+        
   <div class="row">
+    <Helmet>
+          <title>{ TITLE }</title>
+          <meta name="description" content="Wants to know more about Raihan Sidi Harinda here's the website portofolio" />
+          <meta name="keywords" content="raihan sidi, raihan sidi harinda, rsha, react, sidiraihan, project, portofolio" />
+        </Helmet>
     <div><h2>Hi There ✨</h2></div>
 <div class="flex-row about">
 <div class="card">
