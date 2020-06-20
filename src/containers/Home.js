@@ -18,8 +18,7 @@ export default () => (
   <div class="row">
     <Helmet>
           <title>{ TITLE }</title>
-          <meta name="description" content="Wants to know more about Raihan Sidi Harinda here's the website portofolio" />
-          <meta name="keywords" content="raihan sidi, raihan sidi harinda, rsha, react, sidiraihan, project, portofolio" />
+         
         </Helmet>
     <div><h2>Hi There ✨</h2></div>
 <div class="flex-row about">
