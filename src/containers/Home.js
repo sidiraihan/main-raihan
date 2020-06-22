@@ -12,20 +12,23 @@ import ticket from '../ticket.png'
 
 const TITLE = 'Raihan Sidi Harinda'
 
+
+const person = prompt("What is your name?")
+
+
 export default () => (
   
         
   <div class="row">
     <Helmet>
           <title>{ TITLE }</title>
-         
         </Helmet>
-    <div><h2>Hi There ✨</h2></div>
+    <div><h2>Hi {(person == "") ?  "there" : person}✨</h2></div>
 <div class="flex-row about">
 <div class="card">
+  <p>My name is</p>
   <h1>Raihan Sidi Harinda</h1>
-  <p>Full time learner</p>
-  <div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>teamwork</span> <span>programming</span></div>
+  <p>My specialties are</p><div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>leadership</span> <span>teamwork</span> <span>programming</span></div>
 </div>
 <div class="card">
   <h2>Get in touch with me</h2>
@@ -55,6 +58,7 @@ export default () => (
   <a target="blank" href="https://scene.zeplin.io/project/5d4e74f4b19d56351039bb95">Prestisa Partner</a>
 </div>
 </div>
+
 
   </div>
   
