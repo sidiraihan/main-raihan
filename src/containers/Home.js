@@ -13,18 +13,21 @@ import ticket from '../ticket.png'
 const TITLE = 'Raihan Sidi Harinda'
 
 
-const person = prompt("What is your name?")
+//const person = prompt("What is your name?")
 
-
+const person = ''
 
 export default () => (
   
+
         
   <div class="row">
     <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
     <div><h2>Hi {(person == null || person == '') ?  "there" : person}✨</h2></div>
+
+    
 <div class="flex-row about">
 <div class="card">
   <p>My name is</p>
