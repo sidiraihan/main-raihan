@@ -57,9 +57,10 @@ export default () => (
 </div>
 <div class="card aqua">
 📱🎨
-  <a target="blank" href="https://xd.adobe.com/view/45938a54-dda1-49f1-5f7e-c8ef9413e56a-33a2/">Nrby</a>
-  <a target="blank" href="https://xd.adobe.com/view/98fe76cf-f4ed-4d2d-76cb-a7982e7f39b8-eecf/">Coursr</a>
-  <a target="blank" href="https://scene.zeplin.io/project/5d4e74f4b19d56351039bb95">Prestisa Partner</a>
+  <a alt="ui/ux redesign" target="blank" href="https://xd.adobe.com/view/26624d2f-0567-4f9d-5656-2820847220cd-5053/">Smadav Redesign</a>
+  <a alt="adobe xd" target="blank" href="https://xd.adobe.com/view/45938a54-dda1-49f1-5f7e-c8ef9413e56a-33a2/">Nrby</a>
+  <a alt="adobe xd" target="blank" href="https://xd.adobe.com/view/98fe76cf-f4ed-4d2d-76cb-a7982e7f39b8-eecf/">Coursr</a>
+  <a alt="adobe xd" target="blank" href="https://scene.zeplin.io/project/5d4e74f4b19d56351039bb95">Prestisa Partner</a>
 </div>
 </div>
 
