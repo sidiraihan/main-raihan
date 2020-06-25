@@ -184,5 +184,8 @@ align-items: center;
     margin-left: unset;
     margin-right: unset;
   }
+  .aqua a{
+    text-align: center;
+  }
 
 }
