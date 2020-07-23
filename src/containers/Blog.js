@@ -12,6 +12,8 @@ export default () => (
         <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
+        <Link to="/">{'<'} Home</Link>
+        <br />
         <h1>It's blog time.</h1>
         <br />
         All Posts:

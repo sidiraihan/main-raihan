@@ -39,7 +39,7 @@ export default () => (
           </script>
 
     </Helmet>
-      <nav>
+      <nav class="hidden">
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
       </nav>

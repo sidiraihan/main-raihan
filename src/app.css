@@ -11,7 +11,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
-
+.hidden{
+  display: none !important;
+}
+.mb0{
+  margin-bottom: 0;
+}
+.ml1{
+  margin-left: 1vw;
+}
 a {
   text-decoration: none;
   color:#141a4d;

@@ -25,7 +25,7 @@ export default () => (
     <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
-    <div><h2>Hi there ✨</h2></div>
+    <div><h2 class="mb0 ml1">Hi there ✨</h2></div>
 
     
 <div class="flex-row about">
@@ -42,7 +42,7 @@ export default () => (
 
 </div>
 </div>
-<h2>Some of my project</h2>
+<h2 class="mb0 ml1">Some of my project</h2>
 
 
 <div class="flex-row project">
