@@ -173,7 +173,7 @@ justify-content: space-evenly;
     flex: unset;
   }
   .project div.card:last-child{
-    display: flex;
+    display: block;
 justify-content: space-around;
 align-items: center;
   }
@@ -184,8 +184,8 @@ align-items: center;
     margin-left: unset;
     margin-right: unset;
   }
-  .aqua a{
-    text-align: center;
+  .aqua{
+    flex-direction: column;
   }
 
 }

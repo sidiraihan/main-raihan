@@ -25,7 +25,7 @@ export default () => (
     <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
-    <div><h2>Hi {(person == null || person == '') ?  "there" : person}✨</h2></div>
+    <div><h2>Hi there ✨</h2></div>
 
     
 <div class="flex-row about">
@@ -56,7 +56,7 @@ export default () => (
 <img src={gmpImg} alt="" /> 
 </div>
 <div class="card aqua">
-📱🎨
+<h2>UI/UX</h2>
   <a alt="ui/ux redesign" target="blank" href="https://xd.adobe.com/view/26624d2f-0567-4f9d-5656-2820847220cd-5053/">Smadav Redesign</a>
   <a alt="adobe xd" target="blank" href="https://xd.adobe.com/view/45938a54-dda1-49f1-5f7e-c8ef9413e56a-33a2/">Nrby</a>
   <a alt="adobe xd" target="blank" href="https://xd.adobe.com/view/98fe76cf-f4ed-4d2d-76cb-a7982e7f39b8-eecf/">Coursr</a>
