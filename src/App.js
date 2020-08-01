@@ -14,7 +14,7 @@ export default () => (
     <div>
     <Helmet>
           <meta name="google-site-verification" content="blMiVRLzPdCsUauwDJNyIwPgmhuJx2ptPDlo-15kBgY" />
-          <meta name="description" content="Wants to know more about Raihan Sidi Harinda here's the website portofolio" />
+          <meta name="description" content="Hi, there! My name is Raihan Sidi Harinda My specialties are ui/ux database analysis seo leadership teamwork programming. Get in touch with me sidiraihan@gmail.com Linkedin Github Some of my projects UI/UX Redesign Process/Review" />
           <meta name="keywords" content="raihan sidi, raihan sidi harinda, rsha, react, sidiraihan, project, portofolio" />
          
           <script async src='https://www.googletagmanager.com/gtag/js?id=UA-170155507-1'></script>
