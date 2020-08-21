@@ -159,9 +159,9 @@ border: none;
 }
 @media only screen and (max-width: 768px) {
   body{
-    background-size: 100%;
+    background-size: 321%;
     background-position: revert;
-    background-repeat: no-repeat;
+    background-repeat: revert;
   }
   .flex-row{
     flex-direction: column;
