@@ -106,6 +106,9 @@ background-size: cover;
 .about div.card:first-child{
 flex: 3;
 }
+.about div.card:first-child p{
+  color: #000000b5;
+}
 .about div.card:last-child{
   display: flex;
 flex-direction: column;
