@@ -26,8 +26,7 @@ a {
 }
 
 .card a {
-  text-decoration: underline;
-  color:black;
+  color:#000000b5;
   display: block;
   margin-top: 1em;
   font-weight: bold;
@@ -152,7 +151,7 @@ padding-right: 2em;
 border: none;
 }
 .aqua{
-  background: #fcff7f;
+  background: #41e0fe;
     height: fit-content;
     position: sticky;
     top: 1em;
