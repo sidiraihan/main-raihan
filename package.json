@@ -10,7 +10,11 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "axios": "^0.16.2",
+    "feather-icons": "^4.28.0",
     "react": "^16.0.0",
     "react-router": "^4.2.0",
     "react-static": "^5.1.6"
