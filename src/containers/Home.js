@@ -59,6 +59,7 @@ export default () => (
 <div class="card aqua">
   <div>
   <h2>UI/UX</h2> 
+  <a alt="ui/ux web app" target="blank" href="https://xd.adobe.com/view/ca3501a9-9149-434a-92bd-f7ee9e6f847f-9f66/">Memberia</a>
   <a alt="ui/ux web app" target="blank" href="https://xd.adobe.com/view/a014ca63-655d-455c-95d9-e296ddd3e0bf-f547/">undangankita</a>
   <a alt="ui/ux mobile app" target="blank" href="https://xd.adobe.com/view/8244e0dc-fcc3-48f3-9fae-a54c7a8348b9-d717/">XDelivery app</a>
   <a alt="ui/ux redesign" target="blank" href="https://xd.adobe.com/view/26624d2f-0567-4f9d-5656-2820847220cd-5053/">Smadav Redesign</a>
