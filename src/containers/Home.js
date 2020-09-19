@@ -40,7 +40,7 @@ export default () => (
   <a href="mailto:sidiraihan@gmail.com">sidiraihan@gmail.com</a>
   <a href="https://linkedin.com/in/raihan-sidi-harinda">Linkedin</a>
   <a href="https://github.com/sidiraihan">Github</a>
-
+  <a href="https://www.notion.so/raihanlab/Raihan-Learning-Lab-f163e67517654ec79b7e1e8c04509168">Learning & Insight</a>
 </div>
 </div>
 <h2 class="mb0 ml1">Some of my project</h2>
