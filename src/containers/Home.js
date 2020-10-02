@@ -9,7 +9,7 @@ import project1 from '../project1.png'
 import project2 from '../project2.jpg'
 import project4 from '../project4.jpg'
 import ticket from '../ticket.png'
-
+import raihan from '../raihan.jpg'
 
 const TITLE = 'Raihan Sidi Harinda'
 
@@ -26,14 +26,20 @@ export default () => (
     <Helmet>
           <title>{ TITLE }</title>
         </Helmet>
-    <div><h2 class="mb0 ml1">Hi there ✨</h2></div>
+    <div><h2 class="mb0 ml1">Welcome ✨</h2></div>
 
     
 <div class="flex-row about">
 <div class="card">
-  <p>My name is</p>
-  <h1>Raihan Sidi Harinda</h1>
-  <p>My specialties are</p><div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>leadership</span> <span>teamwork</span> <span>programming</span></div>
+  <div>
+    <div>
+      <img class="avatar" src={raihan} alt="raihan-sidi-harinda"/> 
+    </div>
+    <div>
+      <h1>Raihan Sidi Harinda</h1>
+      <div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>leadership</span> <span>teamwork</span> <span>programming</span></div>
+    </div>
+</div>
 </div>
 <div class="card">
   <h2>Get in touch with me</h2>
@@ -43,7 +49,7 @@ export default () => (
   <a href="https://www.notion.so/raihanlab/Raihan-Learning-Lab-f163e67517654ec79b7e1e8c04509168">Learning & Insight</a>
 </div>
 </div>
-<h2 class="mb0 ml1">Some of my project</h2>
+<h2 class="mb0 ml1">Some of my projects 💎</h2>
 
 
 <div class="flex-row project">
