@@ -37,7 +37,7 @@ export default () => (
     </div>
     <div>
       <h1>Raihan Sidi Harinda</h1>
-      <div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>leadership</span> <span>teamwork</span> <span>programming</span></div>
+      <div class="label"><span>ui/ux</span>  <span>database</span> <span>analysis</span> <span>seo</span> <span>leadership</span> <span>teamwork</span> <span>programming</span> <span>testing</span></div>
     </div>
 </div>
 </div>
