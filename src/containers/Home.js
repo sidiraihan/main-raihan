@@ -9,7 +9,7 @@ import project1 from '../project1.png'
 import project2 from '../project2.jpg'
 import project4 from '../project4.jpg'
 import ticket from '../ticket.png'
-import raihan from '../raihan.jpg'
+import raihan from '../me-min.png'
 
 const TITLE = 'Raihan Sidi Harinda'
 
