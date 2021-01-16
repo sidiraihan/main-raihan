@@ -10,6 +10,7 @@ import project2 from '../project2.jpg'
 import project4 from '../project4.jpg'
 import ticket from '../ticket.png'
 import raihan from '../me-min.png'
+import { RiGithubLine, RiLinkedinBoxLine, RiMailLine, RiBookOpenLine } from "react-icons/ri";
 
 const TITLE = 'Raihan Sidi Harinda'
 
@@ -43,10 +44,12 @@ export default () => (
 </div>
 <div class="card">
   <h2>Get in touch with me</h2>
-  <a href="mailto:sidiraihan@gmail.com">sidiraihan@gmail.com</a>
-  <a href="https://linkedin.com/in/raihan-sidi-harinda">Linkedin</a>
-  <a href="https://github.com/sidiraihan">Github</a>
-  <a href="https://www.notion.so/raihanlab/Raihan-Learning-Lab-f163e67517654ec79b7e1e8c04509168">Learning & Insight</a>
+  <div class="flex-row-force">
+  <a href="mailto:sidiraihan@gmail.com"><RiMailLine/>Email</a>
+  <a href="https://linkedin.com/in/raihan-sidi-harinda"><RiLinkedinBoxLine/> Linkedin</a>
+  <a href="https://github.com/sidiraihan"><RiGithubLine/> Github</a>
+  <a href="https://www.notion.so/raihanlab/Raihan-Learning-Lab-f163e67517654ec79b7e1e8c04509168"><RiBookOpenLine/>Learning</a>
+  </div>
 </div>
 </div>
 <h2 class="mb0 ml1">Some of my projects 💎</h2>

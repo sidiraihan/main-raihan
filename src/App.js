@@ -1,6 +1,7 @@
 import React from 'react'
 import { Router, Link } from 'react-static'
 import { Helmet } from 'react-helmet'
+import { IconContext } from "react-icons";
 
 //
 import Routes from 'react-static-routes'
@@ -43,9 +44,11 @@ export default () => (
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
       </nav>
+      <IconContext.Provider value={{ color: "#000000b5", size:"1.5em" }}>
       <div className="content">
         <Routes />
       </div>
+      </IconContext.Provider>
     </div>
   </Router>
 )
