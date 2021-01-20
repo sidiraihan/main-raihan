@@ -173,7 +173,7 @@ border: none;
   flex-direction: row;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .flex-row-force a{
   display: flex;
